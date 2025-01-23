@@ -1,0 +1,66 @@
+{
+  "name": "insomnia-plugin-doppler",
+  "version": "0.0.1",
+  "description": "Insomnia Plugin to integrate with Doppler cli",
+  "main": "./dist/app.js",
+  "type": "commonjs",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "insomnia",
+    "insomnia plugin",
+    "doppler"
+  ],
+  "author": {
+    "name": "Jon King",
+    "email": "jon@ajarsoftware.com",
+    "url": "https://ajarsoftware.com"
+  },
+  "bugs": {
+    "email": "jon@ajarsoftware.com",
+    "url": "https://github.com/jonking-ajar/insomnia-plugin-doppler/issues"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/jonking-ajar/insomnia-plugin-doppler",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jonking-ajar/insomnia-plugin-doppler"
+  },
+  "insomnia": {
+    "name": "dopplersecret",
+    "displayName": "Doppler",
+    "description": "Insomnia Plugin fetches secrets from Doppler via the CLI.",
+    "images": {
+      "icon": "./logo.png"
+    },
+    "publisher": {
+      "name": "Jon King",
+      "icon": "https://avatars.githubusercontent.com/u/48849815?v=4"
+    },
+    "unlisted": false
+  },
+  "devDependencies": {
+    "@eslint/js": "^8.56.0",
+    "@types/node": "^20.11.5",
+    "@typescript-eslint/eslint-plugin": "^6.19.1",
+    "@typescript-eslint/parser": "^6.19.1",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-import-resolver-typescript": "^3.6.1",
+    "eslint-plugin-check-file": "^2.6.2",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-isaacscript": "^3.11.1",
+    "eslint-plugin-prettier": "^5.1.2",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-vitest": "^0.3.20",
+    "prettier": "^3.3.3",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "node-cache": "^5.1.2"
+  },
+  "packageManager": "pnpm@9.5.0+sha256.dbdf5961c32909fb030595a9daa1dae720162e658609a8f92f2fa99835510ca5"
+}
