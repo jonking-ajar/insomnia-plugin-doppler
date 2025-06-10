@@ -7,8 +7,8 @@ exports.writeEntry = writeEntry;
 exports.getEntry = getEntry;
 exports.dopplerCliInstalled = dopplerCliInstalled;
 exports.writeDopplerCliInstalled = writeDopplerCliInstalled;
-var node_cache_1 = __importDefault(require("node-cache"));
-var cache = new node_cache_1.default({ stdTTL: 60 * 60 });
+const node_cache_1 = __importDefault(require("node-cache"));
+const cache = new node_cache_1.default({ stdTTL: 60 * 60 });
 function writeEntry(ref, value) {
     return cache.set(ref, value);
 }

@@ -2,7 +2,9 @@
   "compilerOptions": {
     "baseUrl": ".",
     "outDir": "dist",
-    "lib": ["esnext"],
+    "lib": [
+      "esnext"
+    ],
     "strict": true,
     "forceConsistentCasingInFileNames": true,
     "skipLibCheck": true,
@@ -12,7 +14,12 @@
     "isolatedModules": true,
     "noUnusedLocals": false,
     "removeComments": true,
+    "target": "ES2015"
   },
-  "exclude": ["node_modules"],
-  "include": ["src/**/*"]
+  "exclude": [
+    "node_modules"
+  ],
+  "include": [
+    "src/**/*"
+  ]
 }
